@@ -40,12 +40,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Login"
-                android:textStyle="bold"
+                android:fontFamily="@font/dancing_script"
                 android:textAlignment="center"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:textSize="23dp"
-                android:textColor="@color/cyan">
+                android:textSize="30dp"
+                android:textColor="@color/white">
 
             </TextView>
 

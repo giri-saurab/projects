@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp"
         android:background="#3fff">
@@ -77,9 +77,20 @@
             android:hint="Sign In"
             android:fontFamily="@font/dancing_script"
             android:textSize="25dp">
-
-
         </com.google.android.material.button.MaterialButton>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background=""
+            android:hint="Register"
+            android:fontFamily="@font/dancing_script"
+            android:textSize="25dp">
+        </com.google.android.material.button.MaterialButton>
+
 
     </LinearLayout>
 
